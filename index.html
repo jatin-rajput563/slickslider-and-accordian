@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="/assets/js/app.js">
+
+    <title>Accordion</title>
+</head>
+
+<body>
+    <!-- ============accordian-page=============== -->
+    <section class="min-vh-100 d-flex align-items-center color-yellow">
+        <div class="container">
+            <h1 class="para fw-sm fs-sm text-align pt-2 pb-2">FAQ</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p class="para color-text-black fw-md fs-md">Amet vel eget nisi, sed ut massa turpis sodales
+                                nunc.</p>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body ac-b">
+                            <p class="para fw-lg fs-md">Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                pulvinar in. Quis sed at
+                                sodales aliquam. Amet fermentum, lectus nulla tincidunt egestas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="para color-text-black fw-md fs-md"> Amet vel eget nisi, sed ut massa turpis
+                                sodales nunc.</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="para fw-lg fs-md"> Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                pulvinar
+                                in. Quis sed at
+                                sodales
+                                aliquam. Amet fermentum, lectus nulla tincidunt egestas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="para color-text-black fw-md fs-md"> Amet vel eget nisi, sed ut massa turpis
+                                sodales nunc.</p>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="para fw-lg fs-md"> Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                pulvinar
+                                in. Quis sed at
+                                sodales
+                                aliquam. Amet fermentum, lectus nulla tincidunt egestas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="para fw-md fs-md"> AAmet vel eget nisi, sed ut massa turpis sodales nunc.</p>
+                        </button>
+                    </h2>
+                    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="para color-text-black fw-lg fs-md"> Enim scelerisque quisque egestas velit, eget
+                                tempus, arcu
+                                pulvinar
+                                in. Quis sed at
+                                sodales
+                                aliquam. Amet fermentum, lectus nulla tincidunt egestas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="para color-text-black  fw-md fs-md"> Amet vel eget nisi, sed ut massa turpis
+                                sodales nunc.</p>
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="para fw-lg fs-md">Enim scelerisque quisque egestas velit, eget tempus, arcu
+                                pulvinar
+                                in. Quis sed at sodales
+                                aliquam. Amet fermentum, lectus nulla tincidunt egestas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="min-vh-100 d-flex align-items-center bg">
+        <div class="container">
+            <h1 class="fw-sm fs-sm text-align color-white pt-3 pb-5">Frequently Asked <span
+                    style="background: -webkit-linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Questions</span>
+            </h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button accordion-btn mb-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true"
+                            aria-controls="collapse-1">
+                            <p class="para fw-lg fs-md p-right color-white">Q.1</p>
+                            <p class="para fw-xl fs-md color-white">Lectus tristique turpis id?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md para color-grey">
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7"
+                                        d="M23.7071 8.54207C24.0976 8.15154 24.0976 7.51838 23.7071 7.12785L17.3431 0.763893C16.9526 0.373369 16.3195 0.373369 15.9289 0.763893C15.5384 1.15442 15.5384 1.78758 15.9289 2.17811L21.5858 7.83496L15.9289 13.4918C15.5384 13.8823 15.5384 14.5155 15.9289 14.906C16.3195 15.2966 16.9526 15.2966 17.3431 14.906L23.7071 8.54207ZM0 8.83496H23V6.83496H0V8.83496Z"
+                                        fill="white" />
+                                </svg>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button accordion-btn mb-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <p class="para fw-lg fs-md p-right color-white">Q.2</p>
+                            <p class="para fw-xl fs-md color-white">Ac pharetra nisl nec dignissim odio sed justo velit
+                                nisl.?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md para color-grey">
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7"
+                                        d="M23.7071 8.54207C24.0976 8.15154 24.0976 7.51838 23.7071 7.12785L17.3431 0.763893C16.9526 0.373369 16.3195 0.373369 15.9289 0.763893C15.5384 1.15442 15.5384 1.78758 15.9289 2.17811L21.5858 7.83496L15.9289 13.4918C15.5384 13.8823 15.5384 14.5155 15.9289 14.906C16.3195 15.2966 16.9526 15.2966 17.3431 14.906L23.7071 8.54207ZM0 8.83496H23V6.83496H0V8.83496Z"
+                                        fill="white" />
+                                </svg>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button accordion-btn mb-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <p class="para fw-lg fs-md p-right color-white">Q.3</p>
+                            <p class="para fw-xl fs-md color-white">Arcu tristique semper neque sed condimentum.?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md para color-grey">
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7"
+                                        d="M23.7071 8.54207C24.0976 8.15154 24.0976 7.51838 23.7071 7.12785L17.3431 0.763893C16.9526 0.373369 16.3195 0.373369 15.9289 0.763893C15.5384 1.15442 15.5384 1.78758 15.9289 2.17811L21.5858 7.83496L15.9289 13.4918C15.5384 13.8823 15.5384 14.5155 15.9289 14.906C16.3195 15.2966 16.9526 15.2966 17.3431 14.906L23.7071 8.54207ZM0 8.83496H23V6.83496H0V8.83496Z"
+                                        fill="white" />
+                                </svg>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button accordion-btn mb-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <p class="para fw-lg fs-md p-right color-white">Q.4</p>
+                            <p class="para fw-xl fs-md color-white">Nam imperdiet iaculis vel felis commodo?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md para color-grey">
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7"
+                                        d="M23.7071 8.54207C24.0976 8.15154 24.0976 7.51838 23.7071 7.12785L17.3431 0.763893C16.9526 0.373369 16.3195 0.373369 15.9289 0.763893C15.5384 1.15442 15.5384 1.78758 15.9289 2.17811L21.5858 7.83496L15.9289 13.4918C15.5384 13.8823 15.5384 14.5155 15.9289 14.906C16.3195 15.2966 16.9526 15.2966 17.3431 14.906L23.7071 8.54207ZM0 8.83496H23V6.83496H0V8.83496Z"
+                                        fill="white" />
+                                </svg>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item-1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button accordion-btn mb-3 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <p class="para fw-lg fs-md p-right color-white">Q.5</p>
+                            <p class="para fw-xl fs-md color-white">Quam faucibus sagittis sed ultrices?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md para color-grey">
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.7"
+                                        d="M23.7071 8.54207C24.0976 8.15154 24.0976 7.51838 23.7071 7.12785L17.3431 0.763893C16.9526 0.373369 16.3195 0.373369 15.9289 0.763893C15.5384 1.15442 15.5384 1.78758 15.9289 2.17811L21.5858 7.83496L15.9289 13.4918C15.5384 13.8823 15.5384 14.5155 15.9289 14.906C16.3195 15.2966 16.9526 15.2966 17.3431 14.906L23.7071 8.54207ZM0 8.83496H23V6.83496H0V8.83496Z"
+                                        fill="white" />
+                                </svg>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu est malesuada massa nec
+                                pharetra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="min-vh-100 d-flex align-items-center background-1">
+        <div class="container">
+            <h1 class="head color-white text-align fs-xl fw-lg mt-51 mb-5">Faq</h1>
+            <div class=" accordion" id="accordionExample">
+                <div class="accordion-item-first mb-20">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button acc-btn radius" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-first" aria-expanded="true" aria-controls="collapsefirst">
+                            <img class="top-left-border" src="/assets/image/border.png" alt="border">
+                            <p class="color-white fw-md fs-lg ff">Dui lectus auctor fermentum potenti enim. ?</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-first" class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md ff color-white">
+                                Dui lectus auctor fermentum potenti enim. Quam donec mauris phasellus at auctor. Risus
+                                maecenas commodo eget tellus nullam magna adipiscing facilisis a, nulla.
+                            </p>
+
+                        </div>
+                    </div>
+                    <img class="bottom-right-border" src="/assets/image/border-2.png" alt="border-2">
+                </div>
+                <div class="accordion-item-first mb-20">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button acc-btn radius collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-second" aria-expanded="false"
+                            aria-controls="collapsesecond">
+                            <img class="top-left-border" src="/assets/image/border.png" alt="border">
+                            <p class="color-white fw-md fs-lg ff">Placerat eros faucibus aliquam nunc, mattis</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-second" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md ff color-white">
+                                Dui lectus auctor fermentum potenti enim. Quam donec mauris phasellus at auctor. Risus
+                                maecenas commodo eget tellus nullam magna adipiscing facilisis a, nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <img class="bottom-right-border" src="/assets/image/border-2.png" alt="border-2">
+                </div>
+                <div class="accordion-item-first mb-20">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button acc-btn radius collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-third" aria-expanded="false"
+                            aria-controls="collapsethird">
+                            <img class="top-left-border" src="/assets/image/border.png" alt="border">
+                            <p class="color-white fw-md fs-lg ff">Lorem nunc nunc risus viverra a</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-third" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md ff color-white">
+                                Dui lectus auctor fermentum potenti enim. Quam donec mauris phasellus at auctor. Risus
+                                maecenas commodo eget tellus nullam magna adipiscing facilisis a, nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <img class="bottom-right-border" src="/assets/image/border-2.png" alt="border-2">
+                </div>
+                <div class="accordion-item-first mb-20">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button acc-btn radius collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-forth" aria-expanded="false"
+                            aria-controls="collapseforth">
+                            <img class="top-left-border" src="/assets/image/border.png" alt="border">
+                            <p class="color-white fw-md fs-lg ff">In aliquet fusce id dictumst id</p>
+                        </button>
+                    </h2>
+                    <div id="collapse-forth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md ff color-white">
+                                Dui lectus auctor fermentum potenti enim. Quam donec mauris phasellus at auctor. Risus
+                                maecenas commodo eget tellus nullam magna adipiscing facilisis a, nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <img class="bottom-right-border" src="/assets/image/border-2.png" alt="border-2">
+                </div>
+                <div class="accordion-item-first mb-20">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button acc-btn radius collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse-five" aria-expanded="false"
+                            aria-controls="collapsefive">
+                            <img class="top-left-border" src="/assets/image/border.png" alt="border">
+                            <p class="color-white fw-md fs-lg ff">Elementum pellentesque nisi, sagittis, </p>
+                        </button>
+                    </h2>
+                    <div id="collapse-five" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fw-lg fs-md ff color-white">
+                                Dui lectus auctor fermentum potenti enim. Quam donec mauris phasellus at auctor. Risus
+                                maecenas commodo eget tellus nullam magna adipiscing facilisis a, nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <img class="bottom-right-border" src="/assets/image/border-2.png" alt="border-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===========slick-slider===========-->
+    <section class=" min-vh-100 color-blue align-items-center">
+        <h1 class="fw-xl fs-sm first-head color-white text-align pb-5">Testimonials</h1>
+        <div class="one-time slider-first">
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <svg class="logo" width="85" height="45" viewBox="0 0 85 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.90625" y="0.711914" width="83.1895" height="43.5754" fill="url(#pattern0_68540_864)" />
+                    <defs>
+                        <pattern id="pattern0_68540_864" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_68540_864"
+                                transform="matrix(0.00781805 0 0 0.0149254 -0.0199005 0)" />
+                        </pattern>
+                        <image id="image0_68540_864" width="133" height="67"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <div class="box-para d-flex justify-content-center">
+                    <p class="color-white para-width">“Quick, well designed, and saved our team over 97%
+                        of time. Our team was
+                        able
+                        to meet <br>subject access requests and meet GDPR mandates using the iDox.ai redaction
+                        solution.”
+                    </p>
+                </div>
+                <div class="color-white first-head fw-lg fs-md d-flex justify-content-center">Carl Bevan</div>
+            </div>
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <svg class="logo" width="85" height="45" viewBox="0 0 85 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.90625" y="0.711914" width="83.1895" height="43.5754" fill="url(#pattern0_68540_864)" />
+                    <defs>
+                        <pattern id="pattern0_68540_864" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_68540_864"
+                                transform="matrix(0.00781805 0 0 0.0149254 -0.0199005 0)" />
+                        </pattern>
+                        <image id="image0_68540_864" width="133" height="67"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <div class="box-para d-flex justify-content-center">
+                    <p class="color-white para-width">“Quick, well designed, and saved our team over 97%
+                        of time. Our team was
+                        able
+                        to meet <br>subject access requests and meet GDPR mandates using the iDox.ai redaction
+                        solution.”
+                    </p>
+                </div>
+                <div class="color-white first-head fw-lg fs-md d-flex justify-content-center">Carl Bevan</div>
+            </div>
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <svg class="logo" width="85" height="45" viewBox="0 0 85 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.90625" y="0.711914" width="83.1895" height="43.5754" fill="url(#pattern0_68540_864)" />
+                    <defs>
+                        <pattern id="pattern0_68540_864" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_68540_864"
+                                transform="matrix(0.00781805 0 0 0.0149254 -0.0199005 0)" />
+                        </pattern>
+                        <image id="image0_68540_864" width="133" height="67"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <div class="box-para d-flex justify-content-center">
+                    <p class="color-white para-width">“Quick, well designed, and saved our team over 97%
+                        of time. Our team was
+                        able
+                        to meet <br>subject access requests and meet GDPR mandates using the iDox.ai redaction
+                        solution.”
+                    </p>
+                </div>
+                <div class="color-white first-head fw-lg fs-md d-flex justify-content-center">Carl Bevan</div>
+            </div>
+            <div class="card d-flex flex-column justify-content-center align-items-center">
+                <svg class="logo" width="85" height="45" viewBox="0 0 85 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.90625" y="0.711914" width="83.1895" height="43.5754" fill="url(#pattern0_68540_864)" />
+                    <defs>
+                        <pattern id="pattern0_68540_864" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_68540_864"
+                                transform="matrix(0.00781805 0 0 0.0149254 -0.0199005 0)" />
+                        </pattern>
+                        <image id="image0_68540_864" width="133" height="67"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <div class="box-para d-flex justify-content-center">
+                    <p class="color-white para-width">“Quick, well designed, and saved our team over 97%
+                        of time. Our team was
+                        able
+                        to meet <br>subject access requests and meet GDPR mandates using the iDox.ai redaction
+                        solution.”
+                    </p>
+                </div>
+                <div class="color-white first-head fw-lg fs-md d-flex justify-content-center">Carl Bevan</div>
+            </div>
+
+        </div>
+    </section>
+    <section class="min-vh-100 color-blue pos-rel over-flow bg-color">
+        <img class="star-img" src="/assets/image/star.png" alt="star-img">
+        <img class="circle" src="./assets/image/top-right-circle.png" alt="top-right-circle">
+        <img class="circle-2" src="./assets/image/bottom-left-circle.png" alt="bottom-left-circle">
+        <div class="container">
+            <h1 class="color-white text-align mt-4 mb-5">Meet Our Team</h1>
+            <div class="row">
+                <div class="multiple-items photo-slider slider-overflow">
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/woman.png" alt="woman">
+                        <div class="para-card ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0 ">Darlene Robertson</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/black-man.png" alt="black-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Cameron Williamson</p>
+                            <p class="color-dark fw-lg fs-md  m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/white-man.png" alt="white-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Brooklyn Simmons</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/woman.png" alt="woman">
+                        <div class="para-card ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Darlene Robertson</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/black-man.png" alt="black-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Cameron Williamson</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/white-man.png" alt="white-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Brooklyn Simmons</p>
+                            <p class="color-dark slider-card-para-2fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/woman.png" alt="woman">
+                        <div class="para-card ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Darlene Robertson</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/black-man.png" alt="black-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Cameron Williamson</p>
+                            <p class="color-dark fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="card-1 ml-19">
+                        <img class="img" src="/assets/image/white-man.png" alt="white-man">
+                        <div class="para-card  ml-24">
+                            <p class="color-white slider-card-para fw-lg fs-lg m-0">Brooklyn Simmons</p>
+                            <p class="color-dark slider-card-para-2fw-lg fs-md m-0">CEO & Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="min-vh-100 mt-5 align-items-center justify-content-center overflow-hidden overflow-slider">
+        <h1 class="slider-heading text-align">Trusted by Thousands of <br> Happy Customer</h1>
+        <p class="slider-head-para text-align">These are the stories of our customers who have joined us with great
+            <br>
+            pleasure
+            when using this crazy feature.
+        </p>
+        <div class="show-three last-slider">
+            <div class="card-slider">
+                <div class="d-flex ">
+                    <div class="d-flex">
+                        <div>
+                            <img class="slider-pic" src="/assets/image/pic-1.png" alt="">
+                        </div>
+                        <div class="mt-4 ml-19">
+                            <p class="slider-para m-0 fw-xl fs-m  rubik-font">Viezh Robert</p>
+                            <p class="slider-para-2 m-0 fw-lg fs-xxl rubik-font">Warsaw, Poland</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p class="rating">4.5</p>
+                        <svg class="svg-star" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                fill="#FEA250" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="para-box pt-20">
+                    <p class="main-para rubik-font fw-lg fs-md">“Wow... I am very happy to use this VPN, it turned out
+                        to be more than my
+                        expectations
+                        and so far there have been no problems.</p>
+                </div>
+            </div>
+            <div class="card-slider">
+                <div class="d-flex">
+                    <div class="d-flex">
+                        <div>
+                            <img class="slider-pic" src="/assets/image/pic-2.png" alt="">
+                        </div>
+                        <div class=" mt-4 ml-19">
+                            <p class="slider-para m-0 fw-xl fs-md rubik-font">Yessica Christy</p>
+                            <p class="slider-para-2 m-0 fw-lg fs-xxl rubik-font">Shanxi, China</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p class="rating">4.5</p>
+                        <svg class="svg-star" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                fill="#FEA250" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="para-box pt-20">
+                    <p class="main-para rubik-font fw-lg fs-md">“I like it because I like to travel far and still can
+                        connect with
+                        high
+                        speed.”.</p>
+                </div>
+            </div>
+            <div class="card-slider">
+                <div class="d-flex">
+                    <div class="d-flex">
+                        <div>
+                            <img class="slider-pic" src="/assets/image/pic-3.png" alt="">
+                        </div>
+                        <div class=" mt-4 ml-19">
+                            <p class="slider-para m-0 fw-xl fs-md rubik-font">Kim Young Jou</p>
+                            <p class="slider-para-2 m-0 fw-lg fs-xxl rubik-font">Seoul, South Korea</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p class="rating">4.5</p>
+                        <svg class="svg-star" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                fill="#FEA250" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="para-box pt-20">
+                    <p class="main-para rubik-font fw-lg fs-md">“This is very unusual for my business that currently
+                        requires a
+                        virtual
+                        private network that
+                        has
+                        high security.”.</p>
+                </div>
+            </div>
+            <div class="card-slider">
+                <div class="d-flex ">
+                    <div class="d-flex">
+                        <div>
+                            <img class="slider-pic" src="/assets/image/pic-1.png" alt="">
+                        </div>
+                        <div class="mt-4 ml-19">
+                            <p class="slider-para m-0 fw-xl fs-m  rubik-font">Viezh Robert</p>
+                            <p class="slider-para-2 m-0 fw-lg fs-xxl rubik-font">Warsaw, Poland</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p class="rating">4.5</p>
+                        <svg class="svg-star" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                fill="#FEA250" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="para-box pt-20">
+                    <p class="main-para rubik-font fw-lg fs-md">“Wow... I am very happy to use this VPN, it turned out
+                        to be more than my
+                        expectations
+                        and so far there have been no problems.</p>
+                </div>
+            </div>
+        </div>
+        <button class="prev d-flex align-items-center mt-2">
+            <svg class="svg" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
+                    fill="#F53838" />
+            </svg>
+        </button>
+        <button class="next d-flex align-items-center mt-2">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
+                    fill="#F53838" />
+            </svg>
+
+        </button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

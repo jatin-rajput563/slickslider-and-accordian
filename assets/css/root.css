@@ -1,0 +1,77 @@
+:root {
+    --fs-sm: 48px;
+    --fs-md: 18px;
+    --fs-xxl:14px;
+    --fs-lg: 24px;
+    --fs-xl: 64px;
+    --fw-sm: 700;
+    --fw-md: 600;
+    --fw-lg: 400;
+    --fw-xl: 500;
+    --color-yellow: #F6E300;
+    --color-white: white;
+    --color-grey:#B7B8B8;
+    --color-black: black;
+    --color-text-black:black;
+    --color-blue:#020D15;
+    --color-dark:#CCCED8;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-weight: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.fw-lg {
+    font-weight: var(--fw-lg);
+}
+
+.fw-xl {
+    font-weight: var(--fw-xl);
+}
+.fx-xxl{
+    font-weight: var(--fs-xxl);
+}
+
+.color-yellow {
+    background-color: var(--color-yellow);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    background-color: var(--color-black);
+}
+.color-grey{
+    color: var(--color-grey);
+}
+.color-blue{
+    background-color: var(--color-blue);
+}
+.color-dark{
+    color: var(--color-dark);
+}
+.color-text-black{
+    color: var(--color-text-black);
+}
