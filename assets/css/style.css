@@ -425,3 +425,22 @@
     max-width: 992px;
     margin-left: 50px;
 }
+
+@media (max-width:768px) {
+    .last-slider {
+        transform: none;
+    }
+
+    .prev {
+        display: none !important;
+    }
+
+    .next {
+        display: none !important;
+    }
+
+    .last-slider .slick-dots {
+        position: relative;
+        left: 0;
+    }
+}
