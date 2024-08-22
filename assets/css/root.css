@@ -1,7 +1,7 @@
 :root {
     --fs-sm: 48px;
     --fs-md: 18px;
-    --fs-xxl:14px;
+    --fs-xxl: 14px;
     --fs-lg: 24px;
     --fs-xl: 64px;
     --fw-sm: 700;
@@ -10,11 +10,11 @@
     --fw-xl: 500;
     --color-yellow: #F6E300;
     --color-white: white;
-    --color-grey:#B7B8B8;
+    --color-grey: #B7B8B8;
     --color-black: black;
-    --color-text-black:black;
-    --color-blue:#020D15;
-    --color-dark:#CCCED8;
+    --color-text-black: black;
+    --color-blue: #021B31;
+    --color-dark: #CCCED8;
 }
 
 .fs-sm {
@@ -48,7 +48,8 @@
 .fw-xl {
     font-weight: var(--fw-xl);
 }
-.fx-xxl{
+
+.fx-xxl {
     font-weight: var(--fs-xxl);
 }
 
@@ -63,15 +64,19 @@
 .color-black {
     background-color: var(--color-black);
 }
-.color-grey{
+
+.color-grey {
     color: var(--color-grey);
 }
-.color-blue{
+
+.color-blue {
     background-color: var(--color-blue);
 }
-.color-dark{
+
+.color-dark {
     color: var(--color-dark);
 }
-.color-text-black{
+
+.color-text-black {
     color: var(--color-text-black);
 }
